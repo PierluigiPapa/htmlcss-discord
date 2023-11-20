@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    /* border: 1px solid black; */
 }
 
 body {
@@ -15,17 +17,23 @@ a{
 /* HEADER */
 
 header{
-    padding: 10px 20px;
+    padding-bottom: 100px;
     background-color: #3161E0;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 
 header nav{
     background-color: #3161E0;
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 80%;
     margin: 0 auto;
+    padding-top: 20px;
 }
 
 header nav figure,
@@ -47,3 +55,32 @@ header nav .login1{
     height: 30px;
     text-align: center;
 } 
+
+
+/* CALL TO ACTION */
+#cta{
+    width: 90%;
+    margin: 80px;
+    color: white;
+
+    text-align: center;
+}
+
+header #cta .download1 {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    border-radius: 30px;
+    width: 160px;
+    height: 30px;
+}
+
+
+header #cta .download2 {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    border-radius: 30px;
+    width: 200px;
+    height: 30px;
+}
