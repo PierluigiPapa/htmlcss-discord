@@ -65,7 +65,7 @@ header nav span{
 
 /* CALL TO ACTION */
 #cta{
-    width: 80%;
+    width: 90%;
     margin: 80px;
     color: white;
 
@@ -149,3 +149,127 @@ section .container h1 {
 section .container h2 {
     margin-bottom: 40px;
 }
+
+.container h3 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    background-image: url('../img/stars.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 500px;
+    background-position: top;
+    font-size: 30px;
+}
+
+ .discord-services .container .download3 {
+    background-color: #8EA1E1;
+    color: white;
+    display: inline-block;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 30px;
+
+    padding-block: 10px;
+    padding-inline: 20px;
+ }
+
+/* FOOTER */
+footer{
+    background-color: #121212;
+    color: white;
+    padding-block: 60px;
+}
+
+.italy:before {
+    content: "";
+    background-image: url("/assets/img/ita.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    width: 18px;
+    height: 13px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+footer a {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h2, h4 {
+    color: #7289DA;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+footer .container{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+footer .container > div{
+    flex-grow: 1;
+}
+
+footer .container>div:first-child{
+    flex-grow: 2;
+}
+
+footer .footer-login{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+hr {
+    border: 1px solid #7289DA;
+    margin-bottom: 10px;
+}
+
+.download4 {
+    background-color: #8EA1E1;
+    color: white;
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+/* SOCIAL NETWORK */
+
+ .fa {
+    padding: 20px;
+    font-size: 100px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.fa-twitter, .fa-instagram, .fa-facebook, .fa-youtube-play {
+  color: white;
+  display: flex;
+
+}
+
+ 
