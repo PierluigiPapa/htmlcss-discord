@@ -65,7 +65,7 @@ header nav span{
 
 /* CALL TO ACTION */
 #cta{
-    width: 90%;
+    width: 80%;
     margin: 80px;
     color: white;
 
@@ -110,13 +110,12 @@ h1 {
 
 section{
     border: 1px dashed black;
-    padding-block: 30px;
-    /* background-color: black; */
+    padding-block: 20px;
 }
 
-h2 {
-    font-size: 30px;
-    margin: 20px;
+section .section-text h2{
+    font-size: 35px;
+    margin-bottom: 30px;
 }
 
 section .img-text{
@@ -124,7 +123,7 @@ section .img-text{
 }
 
 section .img-text figure{
-    flex-basis: 40%;
+    flex-basis: 70%;
 }
 
 section .img-text .section-text{
@@ -141,4 +140,12 @@ section.discord-services:nth-child(even) .img-text figure{
 
 section.discord-services:last-child{
     text-align: center;
+}
+
+section .container h1 {
+    margin-top: 20px;
+}
+
+section .container h2 {
+    margin-bottom: 40px;
 }
