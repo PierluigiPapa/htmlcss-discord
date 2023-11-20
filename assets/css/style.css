@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Yantramanav', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* HEADER */
+
+header{
+    padding: 10px 20px;
+    background-color: #3161E0;
+}
+
+header nav{
+    background-color: #3161E0;
+
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header nav figure,
+header nav ul,
+header nav a{
+    color: white;
+    list-style-type: none;
+    /* display: inline-block; */
+    display: flex;
+    gap: 20px;
+}
+
+header nav .login1{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    border-radius: 30px;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+} 
