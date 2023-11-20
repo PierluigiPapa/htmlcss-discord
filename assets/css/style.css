@@ -109,7 +109,6 @@ h1 {
 }
 
 section{
-    border: 1px dashed black;
     padding-block: 20px;
 }
 
@@ -185,7 +184,7 @@ footer{
 
 .italy:before {
     content: "";
-    background-image: url("/assets/img/ita.png");
+    background-image: url("../img/ita.png");
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 10px;
