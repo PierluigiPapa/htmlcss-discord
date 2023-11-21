@@ -265,10 +265,10 @@ hr {
     text-decoration: none;
   }
 
-.fa-twitter, .fa-instagram, .fa-facebook, .fa-youtube-play {
+.fa-twitter, .fa-instagram, .fa-facebook, .fa-youtube{
   color: white;
   display: flex;
-
+  padding: 10px;
 }
 
  
